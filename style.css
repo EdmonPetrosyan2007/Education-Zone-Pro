@@ -1,0 +1,287 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    user-select: none;
+    outline: none;
+    border: none;
+    font-family: sans-serif;
+    list-style-type: none;
+    text-decoration: none;
+    font-weight: 100;
+}
+
+.carcas {
+    width: 1350px;
+}
+
+header {
+    background: dodgerblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px 0px;
+}
+
+header>.carcas {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.info {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: white;
+    font-size: 18px;
+}
+
+.info>ion-icon {
+    font-size: 20px;
+}
+
+header>.carcas>select {
+    padding: 9px 15px;
+    border: 1px solid white;
+    background: transparent;
+    color: white;
+    font-size: 17px;
+    cursor: pointer;
+}
+
+.white_section {
+    padding: 25px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    background: white;
+}
+
+.white_section .carcas {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.h {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.h>h1 {
+    color: #333;
+    font-size: 40px;
+    font-weight: 600;
+}
+
+.h>h3 {
+    color: #999;
+    font-size: 15px;
+}
+
+form {
+    position: relative;
+    border-bottom: 1px solid #ddd;
+    padding: 5px 20px 5px 5px;
+}
+
+form input {
+    width: 100%;
+    font-size: 18px;
+    background: transparent;
+    color: #555;
+    font-style: oblique;
+    letter-spacing: 1px;
+}
+
+form ion-icon {
+    position: absolute;
+    top: 50%;
+    right: 2px;
+    transform: translateY(-50%);
+    font-size: 19px;
+    color: #555;
+}
+
+nav {
+    background: dodgerblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 25px 0px;
+}
+
+nav>ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    li {
+        color: white;
+        font-size: 17px;
+        cursor: pointer;
+        transition: all .5s linear;
+    }
+
+    li:hover {
+        text-shadow: 0 0 2px tan, 0 0 2px tan;
+        letter-spacing: 1px;
+    }
+}
+
+.hero {
+    height: 750px;
+    background: url("Background.jpg");
+    background-attachment: fixed;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.hero>.slider_btn {
+    color: white;
+    background: transparent;
+    font-size: 30px;
+    cursor: pointer;
+    border: 1px solid white;
+    padding: 12px 14px;
+    display: flex;
+}
+
+.hero_content {
+    background: #0000005e;
+    padding: 35px;
+    color: white;
+    width: 950px;
+    gap: 35px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+
+    h2 {
+        font-size: 50px;
+        font-weight: 550;
+        letter-spacing: 1.5px;
+        line-height: 75px;
+    }
+
+    button {
+        background: dodgerblue;
+        color: white;
+        font-size: 19px;
+        padding: 14px 35px;
+        font-weight: 550;
+        cursor: pointer;
+    }
+}
+
+.features {
+    position: relative;
+    display: flex;
+    top: -35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .carcas {
+        display: flex;
+    }
+
+    .feature_future {
+        padding: 50px 35px;
+        gap: 35px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-self: center;
+        text-align: center;
+        color: white;
+        font-size: 20px;
+        line-height: 30px;
+
+        h3 {
+            font-size: 33px;
+        }
+
+        ion-icon {
+            align-self: center !important;
+            font-size: 45px;
+        }
+    }
+
+    .feature_future:nth-of-type(1) {
+        background: #646482;
+    }
+
+    .feature_future:nth-of-type(2) {
+        background: #5D9299;
+    }
+
+    .feature_future:nth-of-type(3) {
+        background: #6F8475;
+    }
+
+    .feature_future:nth-of-type(4) {
+        background: #F37B84;
+    }
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    padding: 75px 0px;
+}
+
+.footer>.carcas {
+    display: flex;
+    justify-content: space-between;
+    gap: 35px;
+
+    .stat {
+        border: 1px solid silver;
+        padding: 15px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        font-size: 45px;
+        padding: 50px 35px;
+        width: 100%;
+        gap: 25px;
+
+        strong {
+            color: dodgerblue;
+            font-weight: 550 !important;
+        }
+
+        span {
+            font-size: 19px;
+            color: gray;
+        }
+    }
+}
+
+.welcome {
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+    padding: 50px 0px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+
+    h2 {
+        font-size: 55px;
+        font-weight: 550;
+        color: #222;
+    }
+
+    p {
+        font-size: 21px;
+        width: 1100px;
+        line-height: 35px;
+        color: gray;
+    }
+}

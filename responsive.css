@@ -1,0 +1,564 @@
+@media screen and (max-width: 1200px) {
+    .carcas {
+        width: 90%;
+    }
+
+    .hero_content {
+        width: 80%;
+    }
+
+    .hero_content > h2 {
+        font-size: 42px;
+        line-height: 60px;
+    }
+
+    .welcome > p {
+        width: 90%;
+    }
+
+    .features >  .feature_future {
+        padding: 40px 20px;
+        font-size: 17px;
+    }
+
+    .features > .feature_future  > h3 {
+        font-size: 27px;
+    }
+}
+
+@media  screen and (max-width: 992px) {
+    .carcas {
+        width: 90%;
+    }
+    header {
+        padding: 12px 0;
+    }
+    .info {
+        font-size: 15px;
+        gap: 7px;
+    }
+
+    .info > ion-icon {
+        font-size: 17px;
+    }
+
+    header > .carcas > select {
+        font-size: 14px;
+        padding: 7px 10px;
+    }
+
+    .white_section {
+        padding: 20px 0;
+    }
+
+    .h > h1 {
+        font-size: 32px;
+    }
+
+    .h > h3 {
+        font-size: 13px;
+    }
+
+    form {
+        width: 200px;
+    }
+    nav {
+        padding: 18px 0;
+    }
+
+    nav > ul {
+        gap: 20px;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    nav > ul li {
+        font-size: 14px;
+    }
+    .hero {
+        height: 600px;
+    }
+
+    .hero_content {
+        width: 75%;
+        padding: 30px;
+    }
+
+    .hero_content > h2 {
+        font-size: 36px;
+        line-height: 50px;
+    }
+
+    .hero_content > button {
+        font-size: 16px;
+        padding: 12px 25px;
+    }
+
+    .hero > .slider_btn {
+        font-size: 24px;
+        padding: 9px 11px;
+    }
+
+    .features {
+        top: -25px;
+    }
+
+    .features > .carcas {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .features  > .feature_future {
+        padding: 35px 20px;
+        min-height: 280px;
+    }
+
+    .welcome {
+        padding: 40px 0;
+    }
+
+    .welcome > h2 {
+        font-size: 42px;
+    }
+
+    .welcome > p {
+        font-size: 18px;
+        line-height: 30px;
+    }
+
+    .footer {
+        padding: 50px 0;
+    }
+
+    .footer > .carcas {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .footer > .carcas .stat {
+        padding: 35px 20px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .carcas {
+        width: 92%;
+    }
+
+    header > .carcas {
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .info {
+        justify-content: center;
+        flex-wrap: wrap;
+        font-size: 14px;
+    }
+
+    .white_section >  .carcas {
+        flex-direction: column;
+        align-items: center;
+        gap: 25px;
+        text-align: center;
+    }
+
+    .h {
+        align-items: center;
+    }
+
+    .h > h1 {
+        font-size: 30px;
+    }
+
+    form {
+        width: 250px;
+    }
+
+    nav > ul {
+        gap: 12px 20px;
+    }
+
+    nav > ul > li {
+        font-size: 13px;
+    }
+
+    .hero {
+        height: 500px;
+    }
+
+    .hero_content {
+        width: 75%;
+        padding: 25px;
+    }
+
+    .hero_content >h2 {
+        font-size: 30px;
+        line-height: 43px;
+    }
+
+    .hero > .slider_btn {
+        font-size: 20px;
+        padding: 7px 9px;
+    }
+
+    .features> .carcas {
+        grid-template-columns: 1fr;
+    }
+
+    .features >.feature_future {
+        min-height: auto;
+        padding: 40px 30px;
+    }
+
+    .welcome >h2 {
+        font-size: 35px;
+    }
+
+    .welcome >p {
+        width: 90%;
+        font-size: 17px;
+        line-height: 28px;
+    }
+
+    .footer > .carcas {
+        grid-template-columns: 1fr;
+    }
+
+    .footer > .carcas > .stat {
+        padding: 35px;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .carcas {
+        width: 94%;
+    }
+
+    .info {
+        font-size: 12px;
+        gap: 5px;
+    }
+
+    .info > ion-icon {
+        font-size: 15px;
+    }
+
+    header > .carcas > select {
+        font-size: 13px;
+    }
+
+    .h > h1 {
+        font-size: 25px;
+    }
+
+    .h > h3 {
+        font-size: 12px;
+    }
+
+    nav {
+        padding: 15px 0;
+    }
+
+    nav > ul {
+        flex-direction: column;
+        gap: 12px;
+    }
+
+    nav > ul> li {
+        font-size: 14px;
+    }
+
+
+    .hero {
+        height: 420px;
+        background-attachment: scroll;
+    }
+
+    .hero_content {
+        width: 72%;
+        padding: 20px;
+        gap: 20px;
+    }
+
+    .hero_content >h2 {
+        font-size: 23px;
+        line-height: 34px;
+    }
+
+    .hero_content >button {
+        font-size: 14px;
+        padding: 10px 18px;
+    }
+
+    .hero > .slider_btn {
+        font-size: 17px;
+        padding: 6px 7px;
+    }
+
+    .features {
+        top: -15px;
+    }
+
+    .features> .feature_future {
+        padding: 35px 20px;
+    }
+
+    .features > .feature_future > h3 {
+        font-size: 25px;
+    }
+
+    .features > .feature_future > p {
+        font-size: 16px;
+        line-height: 25px;
+    }
+
+
+    .welcome {
+        padding: 30px 0;
+        gap: 20px;
+    }
+
+    .welcome >h2 {
+        font-size: 29px;
+    }
+
+    .welcome >p {
+        width: 90%;
+        font-size: 16px;
+        line-height: 25px;
+    }
+
+
+    .footer {
+        padding: 35px 0;
+    }
+
+    .footer > .carcas >.stat {
+        padding: 30px 15px;
+    }
+
+    .footer > .carcas > .stat > strong {
+        font-size: 38px;
+    }
+
+    .footer > .carcas> .stat> span {
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width: 400px) {
+
+    .info {
+        font-size: 11px;
+    }
+
+    .info > ion-icon {
+        font-size: 13px;
+    }
+
+    .h > h1 {
+        font-size: 22px;
+    }
+
+    .h > h3 {
+        font-size: 11px;
+    }
+
+    form {
+        width: 200px;
+    }
+
+
+    .hero {
+        height: 370px;
+    }
+
+    .hero_content {
+        width: 70%;
+        padding: 15px;
+    }
+
+    .hero_content >h2 {
+        font-size: 19px;
+        line-height: 28px;
+    }
+
+    .hero_content > button {
+        font-size: 12px;
+        padding: 9px 14px;
+    }
+
+
+    .features > .feature_future {
+        padding: 30px 15px;
+    }
+
+    .features > .feature_future > ion-icon {
+        font-size: 38px;
+    }
+
+    .features > .feature_future > h3 {
+        font-size: 22px;
+    }
+
+    .features > .feature_future > p {
+        font-size: 14px;
+        line-height: 23px;
+    }
+
+
+    .welcome > h2 {
+        font-size: 25px;
+    }
+
+    .welcome  > p {
+        font-size: 14px;
+        line-height: 23px;
+    }
+}
+
+
+@media screen and (max-width: 320px) {
+    .carcas {
+        width: 95%;
+    }
+
+    header {
+        padding: 10px 0;
+    }
+
+    .info {
+        font-size: 9px;
+        gap: 4px;
+    }
+
+    .info > ion-icon {
+        font-size: 11px;
+    }
+
+    header > .carcas > select {
+        font-size: 11px;
+        padding: 6px 8px;
+    }
+
+    .white_section {
+        padding: 15px 0;
+    }
+
+    .h > h1 {
+        font-size: 19px;
+    }
+
+    .h > h3 {
+        font-size: 9px;
+    }
+
+    form {
+        width: 170px;
+    }
+
+    form > input {
+        font-size: 14px;
+    }
+
+    form > ion-icon {
+        font-size: 15px;
+    }
+
+    nav {
+        padding: 12px 0;
+    }
+
+    nav > ul {
+        gap: 9px;
+    }
+
+    nav > ul > li {
+        font-size: 11px;
+    }
+
+    .hero {
+        height: 330px;
+    }
+
+    .hero_content {
+        width: 68%;
+        padding: 12px;
+        gap: 15px;
+    }
+
+    .hero_content > h2 {
+        font-size: 16px;
+        line-height: 23px;
+        letter-spacing: .5px;
+    }
+
+    .hero_content  > button {
+        font-size: 10px;
+        padding: 8px 12px;
+    }
+
+    .hero > .slider_btn {
+        font-size: 14px;
+        padding: 5px 6px;
+    }
+
+    .features {
+        top: -10px;
+    }
+
+    .features > .feature_future {
+        padding: 25px 12px;
+    }
+
+    .features > .feature_future > ion-icon {
+        font-size: 32px;
+    }
+
+    .features > .feature_future > h3 {
+        font-size: 19px;
+    }
+
+    .features > .feature_future > p {
+        font-size: 13px;
+        line-height: 20px;
+    }
+
+
+    .welcome {
+        padding: 25px 0;
+        gap: 15px;
+    }
+
+    .welcome > h2 {
+        font-size: 21px;
+    }
+
+    .welcome > p {
+        width: 92%;
+        font-size: 13px;
+        line-height: 20px;
+    }
+
+    .footer {
+        padding: 25px 0;
+    }
+
+    .footer > .carcas {
+        gap: 15px;
+    }
+
+    .footer > .carcas > .stat {
+        padding: 25px 10px;
+        gap: 15px;
+    }
+
+    .footer > .carcas > .stat > strong {
+        font-size: 32px;
+    }
+
+    .footer > .carcas > .stat > span {
+        font-size: 14px;
+    }
+}
